@@ -46,3 +46,26 @@ game('btd')
 def sport(boxing):
     print(boxing + ' gym')
 sport('foley\'s')
+
+def name(fname, lname):
+    print(fname + ' ' + lname)
+name('david', 'luna')
+
+#newlines
+def otherName(firstname, middlename, lastname):
+    print(firstname +  middlename +  lastname)
+otherName('david', ' castro', ' laster')
+
+def cup(color, size):
+    print(color + ' ' + size)
+cup('blue', 'big')
+
+def book (first, second, third):
+    print(first + ' ' + second + third)
+book('a', 'promised', ' land')
+
+#arbitrary args
+def mine(*love):
+    ('the best strain is ' + love[1])
+mine('khalifa kush', 'mortal zombie', 'lavender kiss', 'orange bowl')
+
