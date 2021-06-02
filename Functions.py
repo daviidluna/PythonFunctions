@@ -65,7 +65,14 @@ def book (first, second, third):
 book('a', 'promised', ' land')
 
 #arbitrary args
-def mine(*love):
-    ('the best strain is ' + love[1])
-mine('khalifa kush', 'mortal zombie', 'lavender kiss', 'orange bowl')
+def hats(*colors):
+    print('the best hat is the color ' + colors[1])
+hats('blue', 'green', 'red', 'purple')
 
+def glass(*tipo):
+    print('this is the kind of glass: ' + tipo[3])
+glass('float', 'toughened', 'painted', 'patterned', 'solar', 'laminated')
+
+def shoes(*mine):
+    print('these are my shoes: ' + mine[4])
+shoes('ones', 'elevens', 'fours', 'ones', 'airs')
