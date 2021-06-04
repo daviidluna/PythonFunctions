@@ -2,6 +2,10 @@ def my_Function():
     print('hello world from a function')
 my_Function()
 
+def clouds():
+    print('clouds look nice')
+clouds()
+
 def myFunction():
     print('hi from a function')
 myFunction()
@@ -51,6 +55,10 @@ def name(fname, lname):
     print(fname + ' ' + lname)
 name('david', 'luna')
 
+def laptop(color):
+    print(color)
+laptop('my laptop is grey')
+
 #newlines
 def otherName(firstname, middlename, lastname):
     print(firstname +  middlename +  lastname)
@@ -76,3 +84,16 @@ glass('float', 'toughened', 'painted', 'patterned', 'solar', 'laminated')
 def shoes(*mine):
     print('these are my shoes: ' + mine[4])
 shoes('ones', 'elevens', 'fours', 'ones', 'airs')
+
+def airport(*best):
+    print('the best airport is the one in ' + best[2])
+airport('mexico', 'utah', 'san fran', 'denver', 'cancun')
+
+#(practice problems)
+def nam(name, age):
+    print(name, age)
+nam('david', 20)
+
+def func1(number_1, number_2, number_3):
+    print(number_1, number_2, number_3)
+func1(20, 40, 60)
