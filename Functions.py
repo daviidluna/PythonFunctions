@@ -97,3 +97,11 @@ nam('david', 20)
 def func1(number_1, number_2, number_3):
     print(number_1, number_2, number_3)
 func1(20, 40, 60)
+
+def showEmployee(name, salary):
+    print(name, salary)
+showEmployee('Employee ben\'s salary is: ', '9000')
+
+def showEmployeee(sentence):
+    print(sentence)
+showEmployeee('employee ben salary is 9000')
