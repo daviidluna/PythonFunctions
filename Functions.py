@@ -93,15 +93,38 @@ airport('mexico', 'utah', 'san fran', 'denver', 'cancun')
 def nam(name, age):
     print(name, age)
 nam('david', 20)
+def nameAndAge():
+    print('david', '20')
+nameAndAge()
 
 def func1(number_1, number_2, number_3):
     print(number_1, number_2, number_3)
 func1(20, 40, 60)
 
+def calculation(a, b):
+    return a+b, a-b
+res = calculation(40, 10)
+print(res)
+def Calculation(a, b):
+    return a+b, a-b
+add, sub = Calculation(70, 20)
+print(add)
+print(sub)
+
 def showEmployee(name, salary):
     print(name, salary)
 showEmployee('Employee ben\'s salary is: ', '9000')
-
 def showEmployeee(sentence):
     print(sentence)
 showEmployeee('employee ben salary is 9000')
+
+def displayStudent(name, age):
+    print(name, age)
+displayStudent('emma', 20)
+showStudent = displayStudent
+showStudent('emma', 20)
+def books(favorite, leastFavorite):
+    print(favorite, leastFavorite)
+books('favorite: out of this furnace', '\nleast favoirte: dictionary')
+twoBooks = books
+twoBooks('favorite: out of this furnace', '\nleast favoirte: dictionary')
