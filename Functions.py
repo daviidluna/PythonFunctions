@@ -68,7 +68,7 @@ def cup(color, size):
     print(color + ' ' + size)
 cup('blue', 'big')
 
-def book (first, second, third):
+def book(first, second, third):
     print(first + ' ' + second + third)
 book('a', 'promised', ' land')
 
@@ -88,6 +88,27 @@ shoes('ones', 'elevens', 'fours', 'ones', 'airs')
 def airport(*best):
     print('the best airport is the one in ' + best[2])
 airport('mexico', 'utah', 'san fran', 'denver', 'cancun')
+
+def jobs(*number):
+    print('the best job has been ' + number[0])
+jobs('none', 'fres', 'this one', 'chilis')
+
+#keyword arguments
+def money(optionOne, optionTwo, optionThree):
+    print('i usually save money in ' + optionThree)
+money(optionThree = 'twenties', optionTwo = 'tens', optionOne = 'ones')
+
+def emotions(One, Two, Three, Four):
+    print('usually i feel '+ Three)
+emotions(Four = 'fun', Three = 'great', Two = 'sad', One = 'happy') 
+
+def bookes(bookOne, bookTwo, bookThree, bookFour):
+    print('my favorite book has been ' + bookThree)
+bookes(bookFour = 'boys and sex', bookThree = 'the book of lost things', bookTwo = 'out of this furnace', bookOne = 'dreams from my father')
+
+def laptop(colorOne, colorTwo, colorThree):
+    print('i have a macbook that is ' + colorOne)
+laptop(colorThree = 'red', colorTwo = 'black', colorOne = 'grey')
 
 #(practice problems)
 def nam(name, age):
@@ -117,6 +138,9 @@ showEmployee('Employee ben\'s salary is: ', '9000')
 def showEmployeee(sentence):
     print(sentence)
 showEmployeee('employee ben salary is 9000')
+def ShowEmployee():
+    print('bens salary is 9000.')
+ShowEmployee()
 
 def displayStudent(name, age):
     print(name, age)
@@ -128,3 +152,9 @@ def books(favorite, leastFavorite):
 books('favorite: out of this furnace', '\nleast favoirte: dictionary')
 twoBooks = books
 twoBooks('favorite: out of this furnace', '\nleast favoirte: dictionary')
+def showGrades(fail, passs):
+    print(fail, passs)
+showGrades('you fail', 'me')
+what = showGrades
+what('you fail', 'me')
+
