@@ -110,6 +110,27 @@ def laptop(colorOne, colorTwo, colorThree):
     print('i have a macbook that is ' + colorOne)
 laptop(colorThree = 'red', colorTwo = 'black', colorOne = 'grey')
 
+def days(dayOne, dayTwo, dayThree):
+    print('my favorite day is ' + dayThree)
+days(dayThree = 'friday', dayTwo = 'thursday', dayOne = 'wednesday')
+
+def paintings(paintingOne, paintingTwo, paintingThree):
+    print('i have three paintings.' '\n my favorite?\n ' + paintingOne)
+paintings(paintingThree = 'piano', paintingTwo = 'jesus', paintingOne = 'prague')
+
+#arbitrary keyword arguments
+def unknown(**list):
+    print('this list is not defined because of this reason: ' + list['reasonOne'])
+unknown(reasonZero = 'comps broke down', reasonOne = 'visual studio crashed')
+
+def random(**months):
+    print('today\'s month is: ' + months['monthTwo'])
+random(monthTwo = 'may', monthOne = 'june', monthThree = 'july')
+
+def drinks(**anyKind):
+    print('my favorite drink is: ' + anyKind['thirdOne'])
+drinks(firstOne = 'water', secondOne = 'cola', thirdOne = 'energy')
+
 #(practice problems)
 def nam(name, age):
     print(name, age)
@@ -157,4 +178,6 @@ def showGrades(fail, passs):
 showGrades('you fail', 'me')
 what = showGrades
 what('you fail', 'me')
+
+
 
