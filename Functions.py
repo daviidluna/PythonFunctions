@@ -93,6 +93,14 @@ def jobs(*number):
     print('the best job has been ' + number[0])
 jobs('none', 'fres', 'this one', 'chilis')
 
+def times(*when):
+    print('what time is it? ' + when[4])
+times('4', '5', '6', '7', '800')
+
+def math(*answer):
+    print('what is two plus two? ' '\n the answer is ' + answer[3])
+math('3', '5', '7', '4', '9', '90')
+
 #keyword arguments
 def money(optionOne, optionTwo, optionThree):
     print('i usually save money in ' + optionThree)
@@ -118,6 +126,10 @@ def paintings(paintingOne, paintingTwo, paintingThree):
     print('i have three paintings.' '\n my favorite?\n ' + paintingOne)
 paintings(paintingThree = 'piano', paintingTwo = 'jesus', paintingOne = 'prague')
 
+def cups(cupOne, cupTwo, cupThree):
+    print('my cup is the color: ' + cupOne)
+cups(cupThree = 'blue', cupTwo = 'yellow', cupOne = 'white')
+
 #arbitrary keyword arguments
 def unknown(**list):
     print('this list is not defined because of this reason: ' + list['reasonOne'])
@@ -130,6 +142,14 @@ random(monthTwo = 'may', monthOne = 'june', monthThree = 'july')
 def drinks(**anyKind):
     print('my favorite drink is: ' + anyKind['thirdOne'])
 drinks(firstOne = 'water', secondOne = 'cola', thirdOne = 'energy')
+
+def wallet(**Colors):
+    print('my wallet is: ''\n the color ' + Colors['fifth'])
+wallet(first = 'pink', second = 'grey', third = 'blue', fourth = 'yellow', fifth = 'brown', sixth = 'black')
+
+def restaurants(**types):
+    print('her fav restaurant is: ' + types['two'])
+restaurants(one = 'heh', two = 'sizzler', three = 'here', four = 'there')
 
 #(practice problems)
 def nam(name, age):
