@@ -151,6 +151,20 @@ def restaurants(**types):
     print('her fav restaurant is: ' + types['two'])
 restaurants(one = 'heh', two = 'sizzler', three = 'here', four = 'there')
 
+#default value, if we call a function w/o argument, it uses the default value
+def funct(country = 'usa'):
+    print('i am from ' + country)
+funct('brazil')
+funct()
+funct('bolivia')
+
+def timmer(pet = 'cat'):
+    print(' i have  a pet ' + pet)
+timmer('dog')
+timmer('hamster')
+timmer()
+
+
 #(practice problems)
 def nam(name, age):
     print(name, age)
