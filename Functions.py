@@ -135,6 +135,10 @@ def unknown(**list):
     print('this list is not defined because of this reason: ' + list['reasonOne'])
 unknown(reasonZero = 'comps broke down', reasonOne = 'visual studio crashed')
 
+def cat(**kin):
+    print('there are a lot of diff cats. mine is ' + kin['nextt'])
+cat(this = 'fat', that = 'short', nextt = 'perf')
+
 def random(**months):
     print('today\'s month is: ' + months['monthTwo'])
 random(monthTwo = 'may', monthOne = 'june', monthThree = 'july')
@@ -164,6 +168,12 @@ timmer('dog')
 timmer('hamster')
 timmer()
 
+def mouse(color = 'white'):
+    print('i have a mouse that is ' + color)
+mouse('black')
+mouse('red')
+mouse()
+mouse()
 
 #(practice problems)
 def nam(name, age):
@@ -172,6 +182,9 @@ nam('david', 20)
 def nameAndAge():
     print('david', '20')
 nameAndAge()
+def name(*known):
+    print('my name is ' + known[3])
+name('indi', 'stat', 'hudson', 'david')
 
 def func1(number_1, number_2, number_3):
     print(number_1, number_2, number_3)
