@@ -26,9 +26,18 @@
 * If we call the function without argument, it uses the default value:
 
 def my_function(country = "Norway"):
-  print("I am from " + country)
+
+print("I am from " + country)
 
 my_function("Sweden")
+
 my_function("India")
+
 my_function()
+
 my_function("Brazil")
+# Passing a List as an Argument
+* Passing a List as an Argument
+* You can send any data types of argument to a function (string, number, list, dictionary etc.), and it will be treated as the same data type inside the function.
+* E.g. if you send a List as an argument, it will still be a List when it reaches the function
+
