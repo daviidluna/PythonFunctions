@@ -175,6 +175,19 @@ mouse('red')
 mouse()
 mouse()
 
+# Passing a list as an argument
+def myFun(pets):
+    for pet in pets:
+        print(pet)
+different = ['cats', 'dogs', 'lizzards']
+myFun(different)
+
+def Func(nights):
+    for night in nights:
+        print(night)
+lst = ['calms nights', 'sad nigths', 'bizzare nights']
+Func(lst)
+
 #(practice problems)
 def nam(name, age):
     print(name, age)
