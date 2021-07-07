@@ -188,6 +188,35 @@ def Func(nights):
 lst = ['calms nights', 'sad nigths', 'bizzare nights']
 Func(lst)
 
+def run(hikes):
+    for hike in hikes:
+        print(hike)
+types = ['hard ones', 'moderate ones', 'intermediate ones']
+run(types)
+
+# Return values
+def math(x):
+    return 7 * x
+print(math(7))
+print(math(8))
+print(math(90))
+
+def problems(x):
+    return 81 * x
+print(problems(9))
+print(problems(7))
+print(problems(6))
+
+def more(x):
+    return 90 - x
+print(more(80))
+print(more(60))
+print(more(124))
+
+# Pass statement 
+def function():
+    pass
+
 #(practice problems)
 def nam(name, age):
     print(name, age)
